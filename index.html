@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spritzer</title>
+	<link rel="stylesheet" type="text/css" href="Spritzer.css">
+	<script src="Spritzer.js"></script>
+</head>
+<body>
+	<h1></h1>
+	<script>
+	var h1 = document.getElementsByTagName('h1')[0],
+		test = new Spritzer(h1)
+
+	var text = 'Spritz is a really cool reading method and this is a library implementing it using Javascript.',
+		wpm = 450
+
+	test.render(text, wpm)
+	</script>
+</body>
+</html>
