@@ -16,6 +16,8 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
+  <link rel="stylesheet" type="text/css" href="Spritzer.css">
+  <script src="Spritzer.js"></script>
 </head>
 
 <body>
@@ -53,6 +55,7 @@ var wordsPerMinute = 450
 
 test.render(text, wordsPerMinute)
 </code></pre>
+		<h1></h1>
         </article>
       </div>
     </div>
@@ -73,6 +76,15 @@ test.render(text, wordsPerMinute)
     <p class="name"></p>
   </div>
 
-  
+  <script type="text/javascript">
+  var test = new Spritzer(domEl)
+
+  var text = 'Spritz is a really cool reading method and this is a library implementing it using Javascript.'
+
+  var wordsPerMinute = 450
+
+  test.render(text, wordsPerMinute)
+  </script>
+
 </body>
 </html>

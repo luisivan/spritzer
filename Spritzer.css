@@ -1,0 +1,29 @@
+.spritzed {
+    padding: 30px;
+    position: relative;
+}
+
+.spritzed::before, .spritzed::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    height: 10px;
+    background-color: black;
+    width: 2px;
+    top: 0;
+}
+
+.spritzed::after {
+    top: auto;
+    bottom: 0;
+}
+
+.spritzed > div {
+    position: absolute;
+}
+
+.highlight {
+    color: #c00;
+}
