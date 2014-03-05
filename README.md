@@ -17,4 +17,4 @@ var wordsPerMinute = 450
 test.render(text, wordsPerMinute)
 ```
 
-See a demo at [http://luisivan.net/spritzer/](http://luisivan.net/spritzer/) & read more about Spritz at (http://learn2spritz.com/)[http://learn2spritz.com/]
+See a demo at [http://luisivan.net/spritzer/](http://luisivan.net/spritzer/) & read more about Spritz at [http://learn2spritz.com/](http://learn2spritz.com/)
