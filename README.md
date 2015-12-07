@@ -2,12 +2,12 @@
 
 I really liked the Spritz reading method so I made this tiny lib in Javascript.
 
-```
+``` html
 <link rel="stylesheet" type="text/css" href="Spritzer.css">
 <script src="Spritzer.js"></script>
 ```
 
-```
+``` html
 <text>Spritz is a really cool reading method and this is a library implementing it using Javascript.</text>
 ```
 
