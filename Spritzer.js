@@ -50,7 +50,7 @@ var Spritzer = function (el) {
     }.bind(this)
 
     this.render = function(text, wpm) {
-        this.words = text.split(/\s+/).map(processWord)
+        this.words = text.replace(/^\s+|\s+|\n$/,'').split(/\s+/).map(processWord)
         delay = 60000 / wpm
 
         this.playing = true
