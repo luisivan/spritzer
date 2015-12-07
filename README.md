@@ -11,7 +11,7 @@ I really liked the Spritz reading method so I made this tiny lib in Javascript.
 <text>Spritz is a really cool reading method and this is a library implementing it using Javascript.</text>
 ```
 
-```	
+``` javascript
 var test = new Spritzer(domEl);
 	
 var text = document.getElementsByTagName('text')[0].innerHTML;	
